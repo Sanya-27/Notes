@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.loading{
+  animation: loadingData 1s linear infinite;
+}
+
+@keyframes loadingData {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+.area:focus {
+  outline: none;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
